@@ -3,7 +3,7 @@ import java.util.Set;
 
 public class RemoveDuplicatesFromString {
     public static void main(String[] args) {
-        String withDuplicates = "sushilrachana";
+        String withDuplicates = "sushilduplicates";
         char[] charArray = withDuplicates.toCharArray();
         Set<Character> hashSet = new HashSet<>();
         StringBuffer sb = new StringBuffer();
